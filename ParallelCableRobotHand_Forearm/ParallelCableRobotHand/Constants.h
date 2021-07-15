@@ -1,0 +1,93 @@
+#pragma once
+typedef int								DXL_ID;
+typedef const int						DXL_IDs;
+
+typedef int								DXL_POS;
+typedef short							DXL_LOAD;
+
+// CONSTANTS
+#undef PI
+#define PI								3.1415926535897932
+
+// ROBOTHAND
+#define BOBIN_RADIUS					3.5
+#define PLATE_RADIUS					8
+#define NUM_FINGERS						5
+
+#define MCPX_MIN_DEGREE					-45
+#define MCPX_MIN_RADIAN					MCPX_MIN_DEGREE * PI / 180
+#define MCPX_MAX_DEGREE					45
+#define MCPX_MAX_RADIAN					MCPX_MAX_DEGREE * PI / 180
+#define MCPY_MIN_DEGREE					-75
+#define MCPY_MIN_RADIAN					MCPY_MIN_DEGREE * PI / 180
+#define MCPY_MAX_DEGREE					75
+#define MCPY_MAX_RADIAN					MCPY_MAX_DEGREE * PI / 180
+
+#define PIPDIP_MIN_DEGREE				0
+#define PIPDIP_MIN_RADIAN				PIPDIP_MIN_DEGREE * PI / 180
+#define PIPDIP_MAX_DEGREE				90
+#define PIPDIP_MAX_RADIAN				PIPDIP_MAX_DEGREE * PI / 180
+
+#define TRAJECTORY_RESOLUTION_DEG		2.75
+#define TRAJECTORY_RESOLUTION_RAD		TRAJECTORY_RESOLUTION_DEG * PI / 180
+
+#define HOMING_MCP_THRESHOLD			350
+#define HOMING_DIP_THRESHOLD			350
+
+#define FREESPACE_MCP_THRESHOLD			250
+#define FREESPACE_DIP_THRESHOLD			275
+
+#define SPEED_MCP_THRESHOLD				800
+#define SPEED_DIP_THRESHOLD				800
+
+#define GRASPING_MCP_THRESHOLD			215
+#define GRASPING_DIP_THRESHOLD			265
+
+#define FORCE_MCP_THRESHOLD				500
+#define FORCE_DIP_THRESHOLD				500
+
+// USER DYNAMIXEL
+#define DEVICENAME                      "COM3"
+#define BAUDRATE                        3000000
+
+#define POS_PWM_LIMIT					350
+#define POS_P_GAIN						300
+#define POS_I_GAIN						25
+#define POS_D_GAIN						150
+
+// DYNAMIXEL
+#define DXLS							15
+#define DXL_BROADCAST_ID				254
+#define DXL_ENCODER_RESOLUTION			4096
+
+#define PROTOCOL_VERSION                2.0
+
+#define ADDR_FIRMWARE_VERSION			6
+#define ADDR_OPERATING_MODE				11
+#define ADDR_POS_PWM_LIMIT				36
+#define ADDR_TORQUE_ENABLE				64
+#define ADDR_POS_P_GAIN					84
+#define ADDR_POS_I_GAIN					82
+#define ADDR_POS_D_GAIN					80
+#define ADDR_GOAL_POSITION				116
+#define ADDR_PRESENT_LOAD				126
+#define ADDR_PRESENT_POSITION			132
+
+#define LEN_GOAL_POSITION				4
+#define LEN_PRESENT_POSITION			4
+#define LEN_PRESENT_LOAD				2
+
+#define TORQUE_ENABLE					1
+#define TORQUE_DISABLE					0
+
+#define VELOCITY_CONTROL_MODE			1
+#define POSITION_CONTROL_MODE			3
+#define EXTENDED_POS_CONTROL_MODE		4
+#define PWM_CONTROL_MODE				16
+
+// Piano
+#define MUSIC_SCALES					13
+#define BIT_PER_SEC						36
+#define SOSTENUTO_RATIO					0.9
+
+//

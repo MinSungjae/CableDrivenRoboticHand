@@ -1,0 +1,493 @@
+﻿  ActuatorFunction.cpp
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(43): warning C4251: 'dynamixel::GroupBulkRead::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): warning C4251: 'dynamixel::GroupBulkRead::address_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(45): warning C4251: 'dynamixel::GroupBulkRead::length_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): warning C4251: 'dynamixel::GroupBulkRead::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(47): warning C4251: 'dynamixel::GroupBulkRead::error_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(43): warning C4251: 'dynamixel::GroupBulkWrite::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(44): warning C4251: 'dynamixel::GroupBulkWrite::address_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(45): warning C4251: 'dynamixel::GroupBulkWrite::length_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(46): warning C4251: 'dynamixel::GroupBulkWrite::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_read.h(43): warning C4251: 'dynamixel::GroupSyncRead::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncRead'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_read.h(44): warning C4251: 'dynamixel::GroupSyncRead::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_read.h(45): warning C4251: 'dynamixel::GroupSyncRead::error_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_write.h(43): warning C4251: 'dynamixel::GroupSyncWrite::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncWrite'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_write.h(44): warning C4251: 'dynamixel::GroupSyncWrite::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  CableRobotHand.cpp
+  CableRobotHandFunction.cpp
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(43): warning C4251: 'dynamixel::GroupBulkRead::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): warning C4251: 'dynamixel::GroupBulkRead::address_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(45): warning C4251: 'dynamixel::GroupBulkRead::length_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): warning C4251: 'dynamixel::GroupBulkRead::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(47): warning C4251: 'dynamixel::GroupBulkRead::error_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(43): warning C4251: 'dynamixel::GroupBulkWrite::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(44): warning C4251: 'dynamixel::GroupBulkWrite::address_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(45): warning C4251: 'dynamixel::GroupBulkWrite::length_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(46): warning C4251: 'dynamixel::GroupBulkWrite::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_read.h(43): warning C4251: 'dynamixel::GroupSyncRead::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncRead'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_read.h(44): warning C4251: 'dynamixel::GroupSyncRead::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_read.h(45): warning C4251: 'dynamixel::GroupSyncRead::error_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_write.h(43): warning C4251: 'dynamixel::GroupSyncWrite::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncWrite'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_write.h(44): warning C4251: 'dynamixel::GroupSyncWrite::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  Finger.cpp
+  Joint.cpp
+  ParallelCableRobotHand.cpp
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(43): warning C4251: 'dynamixel::GroupBulkRead::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): warning C4251: 'dynamixel::GroupBulkRead::address_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(45): warning C4251: 'dynamixel::GroupBulkRead::length_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): warning C4251: 'dynamixel::GroupBulkRead::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(47): warning C4251: 'dynamixel::GroupBulkRead::error_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(43): warning C4251: 'dynamixel::GroupBulkWrite::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(44): warning C4251: 'dynamixel::GroupBulkWrite::address_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(45): warning C4251: 'dynamixel::GroupBulkWrite::length_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(44): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_write.h(46): warning C4251: 'dynamixel::GroupBulkWrite::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_read.h(43): warning C4251: 'dynamixel::GroupSyncRead::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncRead'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_read.h(44): warning C4251: 'dynamixel::GroupSyncRead::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_read.h(45): warning C4251: 'dynamixel::GroupSyncRead::error_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_write.h(43): warning C4251: 'dynamixel::GroupSyncWrite::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncWrite'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\packet_handler.h(205): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_sync_write.h(44): warning C4251: 'dynamixel::GroupSyncWrite::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  e:\onedrive\문서\대학\수업\capstonedesign\dynamixel sdk\dynamixelsdk-3.7.21\dynamixelsdk-3.7.21\c++\include\dynamixel_sdk\group_bulk_read.h(46): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  Robotics.cpp
+  Generating code
+  1 of 57 functions ( 1.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ParallelCableRobotHand.vcxproj -> M:\Min Seong Jae\지능로봇연구실\ParallelCableRobotHand_Forearm\x64\Release\ParallelCableRobotHand.exe
